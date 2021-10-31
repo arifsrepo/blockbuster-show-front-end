@@ -1,0 +1,9 @@
+.custome_nav{
+    text-decoration: none;
+    color: #c2c0c0;
+    margin-left: 10px;
+}
+
+.custome_nav:hover{
+    color: white;
+}

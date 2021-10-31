@@ -1,0 +1,21 @@
+.option_container{
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+}
+
+.option_holder{
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px;
+}
+
+.option_img_div{
+    max-width: 200px;
+}
+
+.option_text{
+    margin-left: 15px;
+    text-align: left;
+}

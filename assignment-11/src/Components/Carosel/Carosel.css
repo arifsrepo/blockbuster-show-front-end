@@ -1,0 +1,13 @@
+.carosel_img{
+    height: 650px;
+    width: auto;
+}
+
+@media only screen and (max-width: 720px) {
+    .carosel_img {
+        background-color: lightblue;
+    }
+    .carousel-inner{
+        max-height: 300px;
+    }
+  }

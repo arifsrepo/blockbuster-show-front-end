@@ -1,0 +1,24 @@
+.colage_div{
+    width: 50%;
+}
+
+.colage_column{
+    width: 300px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.grid_colage{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+}
+
+.colage_img{
+    width: 100%;
+    margin: 5px;
+}
+
+.colage_extra{
+    width: 400px;
+}

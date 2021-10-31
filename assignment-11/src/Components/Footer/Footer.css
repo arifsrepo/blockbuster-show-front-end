@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1c1c1c;
+    color: white;
+    padding: 20px;
+}
+
+.footer_section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    min-height: 200px;
+    min-width: 300px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.border_left{
+    border-left: 1px solid white;
+}
+
+.fotter_contacat{
+    display: flex;
+}
+
+.footer_text{
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 720px) {
+    .border_left{
+        border: none;
+    }
+    .footer_section{
+        border-left: 1px solid white;
+    }
+}

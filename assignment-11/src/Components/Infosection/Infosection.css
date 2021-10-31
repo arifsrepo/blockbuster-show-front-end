@@ -1,0 +1,55 @@
+.info_flxer{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.info_img{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.info_text{
+    margin-left: 5%;
+    width: 95%;
+    text-align: left;
+}
+
+.info_container{
+    width: 50%;
+}
+
+.info_button {
+    border: none;
+    color: #4CAF50;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #4CAF50;
+  }
+
+  
+.info_button:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.info_main{
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 720px) {
+    .info_flxer{
+        flex-wrap: wrap;
+    }
+    .info_container{
+        width: 300px;
+    }
+  }

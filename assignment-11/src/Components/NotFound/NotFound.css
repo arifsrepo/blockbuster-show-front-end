@@ -1,0 +1,8 @@
+.not_found{
+    background-image: url('https://programmingtask.000webhostapp.com/p-hero/Assignment-10/404nf.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 500px;
+}

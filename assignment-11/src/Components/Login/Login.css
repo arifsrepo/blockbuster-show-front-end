@@ -1,0 +1,23 @@
+.login_div{
+    background-image: url('https://live.staticflickr.com/683/20468151743_a478dc3a24_c.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.google_login{
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.google_logo{
+    width: 50%;
+}
+
+

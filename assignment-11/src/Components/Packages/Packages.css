@@ -1,0 +1,7 @@
+.cards_holder{
+    width: 95%;
+    margin-left: 2%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
