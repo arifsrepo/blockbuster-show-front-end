@@ -1,0 +1,24 @@
+
+.cover_image {
+    background-image: url("../../images/digital-healthcare.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 300px;
+  }
+  
+  .txt{
+      margin-left: 10%;
+      text-align: left;
+      width: 80%;
+  }
+
+  .inner_txt{
+      margin-left: 10%;
+  }
+
+  .banner_p{
+      width: 50%;
+  }

@@ -1,0 +1,16 @@
+.info_main{
+    margin-left: 10%;
+    width: 80%;
+    text-align: left;
+}
+
+.info_sub{
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.info_image{
+    width: 100%;
+    height: auto;
+}

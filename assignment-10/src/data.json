@@ -1,0 +1,51 @@
+[
+    {
+        "id":"1",
+        "service":"Doctor care",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/Assignment-10/API/api1.jpg",
+        "desc":"A doctor may visit a patient at home to diagnose and treat the illness(es). He or she may also periodically review the home health care needs.",
+        "fee":"300"
+    },
+
+    {
+        "id":"2",
+        "service":"Nursing care",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/Assignment-10/API/api2.jpg",
+        "desc":"The most common form of home health care is some type of nursing care depending on the person's needs. In consultation with the doctor, a registered nurse will set up a plan of care. Nursing care may include wound dressing, ostomy care, intravenous therapy, administering medication, monitoring the general health of the patient, pain control, and other health support.",
+        "fee":"350"
+    },
+
+    {
+        "id":"3",
+        "service":"Physical, occupational, and/or speech therapy",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/Assignment-10/API/api3.jpg",
+        "desc":"Some patients may need help relearning how to perform daily duties or improve their speech after an illness or injury. A physical therapist can put together a plan of care to help a patient regain or strengthen use of muscles and joints. An occupational therapist can help a patient with physical, developmental, social, or emotional disabilities relearn how to perform such daily functions as eating, bathing, dressing, and more. A speech therapist can help a patient with impaired speech regain the ability to communicate clearly.",
+        "fee":"300"
+    },
+
+    {
+        "id":"4",
+        "service":"Medical social services",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/Assignment-10/API/api4.jpg",
+        "desc":"Medical social workers provide various services to the patient, including counseling and locating community resources to help the patient in his or her recovery. Some social workers are also the patient's case manager--if the patient's medical condition is very complex and requires coordination of many services.",
+        "fee":"460"
+    },
+
+    {
+        "id":"5",
+        "service":"Care from home health aides",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/Assignment-10/API/api5.jpg",
+        "desc":"Home health aides can help the patient with his or her basic personal needs such as getting out of bed, walking, bathing, and dressing. Some aides have received specialized training to assist with more specialized care under the supervision of a nurse.",
+        "fee":"450"
+    },
+
+    {
+        "id":"6",
+        "service":"Homemaker or basic assistance care",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/Assignment-10/API/api6.jpg",
+        "desc":"While a patient is being medically cared for in the home, a homemaker or person who helps with chores or tasks can maintain the household with meal preparation, laundry, grocery shopping, and other housekeeping items.",
+        "fee":"320"
+    }
+]
+
+
