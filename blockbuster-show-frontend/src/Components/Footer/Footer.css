@@ -1,0 +1,12 @@
+.footer{
+    background-image: linear-gradient(rgb(0 0 0 / 47%), rgb(0 0 0)), url('https://i.ibb.co/RC7Fdd6/hd-movies-tool.jpg');
+    /* background-image: linear-gradient(rgba(0 0 0 / 20%), rgba(0, 0, 0, 0.815)), url('https://i.ibb.co/RC7Fdd6/hd-movies-tool.jpg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}

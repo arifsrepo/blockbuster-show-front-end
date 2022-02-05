@@ -1,0 +1,21 @@
+.viewer_section{
+    background-color: #020d18;
+    min-height: 700px;
+}
+
+.player_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_viewport{
+    width: 70% !important;
+    height: 600px !important;
+}
+
+@media screen and (max-width: 660px) {
+    .main_viewport{
+        height: 250px !important;
+    }
+}

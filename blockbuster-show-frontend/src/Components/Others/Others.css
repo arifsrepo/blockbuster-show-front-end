@@ -1,0 +1,150 @@
+.others_style{
+    background-color: #020d18;
+    color: white;
+    min-height: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* box-shadow: 0px 5px 18px 20px #141823b3; */
+  box-shadow: 5px 15px 8px 10px #888888;
+}
+
+.top_menu_holder{
+    text-align: left;
+    min-height: 200px;
+    padding: 15px;
+    background-color: #1c212e;
+}
+
+.top_show_holder{
+    min-height: 500px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.top_show_header_title{
+    font-size: 30px;
+    border-bottom: 1px solid #ffffff45;
+}
+
+.top_style{
+    font-size: 20px;
+}
+
+.list_style{
+    list-style-type: none;
+    display: flex;
+}
+
+.list_style li{
+    margin: 5px;
+    cursor: pointer;
+}
+.top_selecter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_genere{
+    color: crimson;
+}
+
+.TopShowSpinnerHolder{
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_poster_holder{
+    
+}
+
+.top_poster_details{
+}
+
+.details_poster{
+    min-width: 180px;
+    min-height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.details_poster2{
+    min-width: 180px;
+    min-height: 290px;
+    margin: 10px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.details_show_name{
+    font-size: 30px;
+}
+.details_des{
+    color: #c8c7c7e0;
+}
+
+.details_btn{
+    background-color: #24baef;
+    border-color: #24baef;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    padding: 14px 18.7px;
+    font-size: .75rem;
+    line-height: 1;
+    border-radius: 5px;
+    color: white;
+    font-family: Montserrat,"Open Sans",sans-serif;
+    min-width: 125px;
+}
+
+.details_btn:hover{
+    background-color: #24baefc9;
+}
+
+.loading_img_style{
+    width: 50px;
+}
+
+.details_loading_img_holder{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_show_rateings{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.top_show_rateings_icon{
+    font-size: 40px;
+    color: #24baef;
+    display: flex;
+}
+
+.top_show_rateings_text{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.top_show_rateings_vote{
+    font-size: 15px;
+    color: #ffffffbf;
+}

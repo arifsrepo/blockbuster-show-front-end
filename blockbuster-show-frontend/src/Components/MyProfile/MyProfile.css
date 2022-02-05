@@ -1,0 +1,41 @@
+.profile_div{
+    background-color: #020d18;
+    color: white;
+    min-height: 600px;
+}
+
+.profile_data_holder{
+    width: 80%;
+    margin-left: 10%;
+    min-height: 450px;
+    display: flex;
+}
+
+.profile_img_holder{
+    background-color: teal;
+    width: 20%;
+}
+
+.profile_info_holder{
+    background-color: white;
+    width: 80%;
+    color: black;
+    text-align: left;
+    padding: 20px;
+}
+
+.personal_details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ssl_payment{
+    display: flex;
+    height: 60px;
+    width: 280px;
+    cursor: pointer;
+}
+
+.ssl_img{
+    width: 80%;
+}

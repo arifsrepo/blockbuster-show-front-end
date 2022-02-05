@@ -1,0 +1,52 @@
+.banner_div{
+    /* background-image: url('https://programmingtask.000webhostapp.com/p-hero/SCIC_Project/Pirates-Of-The-Caribbean-6.jpg'); */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ibb.co/D5gL960/hd-movies-tool.jpg"); */
+    background-image: url("https://i.ibb.co/wgymj8B/slider-bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    /* font-family: Helvetica Neue,Helvetica,Arial,sans-serif;  */
+    font-family: 'Outfit', sans-serif;
+}
+
+.search_bar_div{
+    width: 80%;
+    position: absolute;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.carusel_div{
+    border: 1px solid white;
+    width: 80%;
+    position: absolute;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.search_bar_input{
+    height: 70px;
+    width: 450px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #fffffff2;
+}
+
+.search_btn{
+    background-color: #e50914;
+    border: none;
+    height: 69px;
+    font-size: 25px;
+    vertical-align: middle;
+    color: white;
+    width: 150px;
+}

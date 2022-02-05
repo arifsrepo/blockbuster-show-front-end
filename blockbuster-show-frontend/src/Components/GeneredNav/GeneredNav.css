@@ -1,0 +1,68 @@
+.GeneredNavDivc{
+    background-color: red;
+}
+
+.GeneredNavLink{
+    text-decoration: none;
+    color: white;
+    margin-left: 10PX;
+}
+
+
+.GeneredNav_Style{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.genere_style{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.active_genere_style{
+    color: crimson;
+}
+
+.genere_style:hover{
+    text-decoration: none;
+    color:crimson;
+}
+
+.posterHolder{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.pagination{
+    display: flex;
+    padding-left: 30px;
+}
+
+.pagination div{
+    padding: 5px;
+    cursor: pointer;
+    color: #428bca;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.pagination div:hover{
+    color: #dcf836;
+}
+
+.selected_page{
+    color: #dcf836 !important;
+}
+
+.spinnerHolder{
+    min-height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster_link_title_style{
+    color: white;
+}

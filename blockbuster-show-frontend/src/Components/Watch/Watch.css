@@ -1,0 +1,108 @@
+.watch_style{
+    background-color: #131722;
+    color: white;
+    min-height: 900px;
+    width: 100%;
+    position: absolute;
+}
+
+.watch_confirm_section{
+    margin: 40px;
+    width: 80%;
+    margin-left: 10%;
+    min-height: 610px;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-shadow: rgb(0, 0, 0) 0px -50px 36px -28px inset;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    border-radius: 5px;
+}
+
+.show_info{
+    text-align: left;
+    padding-left: 30px;
+}
+
+.show_info_h1{
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.show_info_p{
+    width: 50%;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
+}
+
+.show_sub_info{
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main_colage_holder{
+    width: 70%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.colage_holder{
+    display: flex;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* min-height: 200px; */
+}
+
+.colage_holder_sub{
+    width: 80%;
+    display: flex;
+}
+
+.colage_sub_img{
+    width:200px;
+}
+
+.watch_btn{
+    background-color: #24baef;
+    border-color: #24baef;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    padding: 16px 18.7px;
+    font-size: .75rem;
+    line-height: 1;
+    border-radius: 5px;
+    color: white;
+    font-family: Montserrat,"Open Sans",sans-serif;
+    min-width: 125px;
+}
+
+.watch_additional_info{
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    background-color: rgba(70, 70, 70, 0.349);
+    width: 40%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.watch_additional_info_text{
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 15px;
+    margin-right: 15px;
+}
