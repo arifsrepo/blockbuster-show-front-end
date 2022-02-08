@@ -1,0 +1,33 @@
+.alluser_holder{
+    padding: 20px;
+}
+
+.userDetails_style{
+    display: flex;
+    margin: 5px;
+    background-color: #353a3fa8;
+    height: 40px;
+    padding: 10px;
+    text-align: left;
+}
+
+.user_sl{
+    margin-left: 10px;
+    width: 5%;
+}
+
+.user_name{
+    min-width: 15%;
+}
+
+.user_email{
+    min-width: 25%;
+}
+
+.user_balance{
+    min-width: 15%;
+}
+
+.user_mob{
+    min-width: 20%;
+}

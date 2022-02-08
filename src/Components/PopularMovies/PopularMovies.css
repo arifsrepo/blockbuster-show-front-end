@@ -1,0 +1,24 @@
+.popular_movie{
+    background-color: #020d18;
+    color: white;
+    min-height: 200px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.popular_movie_head{
+    border-bottom: 1px solid white;
+    padding: 5px;
+    text-align: left;
+}
+
+.popular_movie_list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.popular_movie p{
+    text-align: left;
+    color: #555;
+}

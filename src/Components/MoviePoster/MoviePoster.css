@@ -1,0 +1,43 @@
+.MoviePosterStyle{
+    min-width: 180px;
+    height: 280px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: left;
+    color: white !important;
+}
+
+.poster_title{
+    position: absolute;
+    bottom: 5%;
+    padding: 5px;
+    width: 90%;
+}
+
+.poster_title p{
+    margin: 0;
+}
+
+.rating_text{
+    color: #f5b50a !important;
+    margin-left: 10px;
+}
+
+.ratind_red_span{
+    background-color: #ec2719;
+    color: white;
+    width: 60px;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.poster_ratings{
+    display: flex;
+    justify-content: flex-start;
+}

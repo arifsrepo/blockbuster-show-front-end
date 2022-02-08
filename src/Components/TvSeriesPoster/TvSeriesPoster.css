@@ -1,0 +1,65 @@
+.series_poster{
+    width: 220px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* min-height: 150px; */
+    display: flex;
+    justify-content: center;
+}
+
+.series_poster_holder{
+    padding: 15px;
+    max-width: 250px;
+    min-height: 200px;
+    background-color: #80808085;
+    color: #ffffff;
+    text-align: left;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.tvseries_genere{
+    background-color: #9c27b0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: white;
+    height: 20px;
+    font-size: 12px;
+}
+
+.icon_style{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60px;
+    color: #f5b50a;
+    font-size: 20px;
+}
+
+.poster_info{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.playing_hover_style{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    transition: 4s;
+}
+
+.playing_hover_style:hover{
+    background-image:  linear-gradient(rgba(0 0 0 / 20%), rgba(0, 0, 0, 0.5)), url('https://i.ibb.co/g9XmthB/New-Project-2.png');
+    justify-content: center;
+    align-items: center;
+}
+

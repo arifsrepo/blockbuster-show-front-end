@@ -1,0 +1,31 @@
+.add_show_main{
+    margin-top: 20px;
+    padding: 20px;
+    min-height: 400px;
+}
+
+.show_type_holder{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.main_show_info_section{
+    
+}
+
+.show_info_style{
+    text-align: left;
+    width: 45%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.form_style_custome{
+    display: flex;
+}
+
+.other_info_style{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+}

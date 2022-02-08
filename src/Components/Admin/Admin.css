@@ -1,0 +1,99 @@
+.admin_div{
+    background-color: #020d18;
+    min-height: 600px;
+    color: white;
+    display: flex;
+}
+
+.admin_side_menu{
+    background-color: #122433a8;
+    position: relative;
+    min-height: 600px;
+    width: 15%;
+    min-width: 80px;
+}
+
+.admin_panale{
+    width: 85%;
+    padding: 25px;
+}
+
+.admin_id{
+    background-color: #122433a8;
+    min-height: 50px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    margin-top: 45px;
+}
+
+.admin_details{
+    background-color: #122433a8;
+    min-height: 500px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.admin_side_menu_div{
+    list-style-type: none;
+    margin-top: 60px;
+    padding: 0;
+}
+
+.side_menu_NavLink{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.side_menu_NavLink:hover{
+    background-color: #020d18;
+}
+
+.NavLink_Span{
+    margin-left: 20px;
+}
+
+.admin_summery{
+    min-height: 200px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.admin_summery_sub{
+    margin: 10px;
+    border-radius: 2px;
+    background-color: #122433a8;
+    padding: 10px;
+    min-width: 250px;
+}
+
+.summery_sub_one{
+    display: flex;
+}
+
+.summery_main_info{
+    width: 70%;
+    text-align: left;
+}
+
+.summery_icon_holder{
+    font-size: 55px;
+    width: 30%;
+}
+
+@media screen and (max-width: 1240px) {
+    .NavLink_Span {
+        display: none;
+    }
+    .side_menu_NavLink{
+        font-size: 25px;
+    }
+    .admin_summery{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }

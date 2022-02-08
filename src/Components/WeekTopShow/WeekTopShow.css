@@ -1,0 +1,24 @@
+.top_show_item{
+    height: 90px;
+    display: flex;
+    cursor: pointer;
+    border-top: 0.5px solid rgb(218 215 215 / 21%);
+}
+
+.top_show_item:hover{
+    /* background-color: rgb(36, 26, 65); */
+    background-color: #020d18;
+}
+
+.top_number{
+    padding: 30px;
+    width: 20%;
+}
+
+.top_name{
+    padding: 10px;
+}
+
+.top_genere{
+    color: #24baef !important;
+}

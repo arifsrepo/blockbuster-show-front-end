@@ -1,0 +1,18 @@
+.feature_style{
+    background-image: url('https://i.ibb.co/8xNjghg/ep-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 500px;
+    color: white;
+    box-shadow: 0px 5px 18px 20px #141823b3;
+    padding-top: 130px; 
+}
+
+.tv_series_style{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
