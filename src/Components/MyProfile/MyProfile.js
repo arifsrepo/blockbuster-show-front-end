@@ -15,8 +15,8 @@ const MyProfile = () => {
             cus_phone : accountDetails?.mob
         }
         console.log(payment)
-        // fetch('https://aqueous-peak-41377.herokuapp.com/sslinit', {
-        fetch('http://localhost:5000/sslinit', {
+        fetch('https://aqueous-peak-41377.herokuapp.com/sslinit', {
+        // fetch('http://localhost:5000/sslinit', {
             method: 'POST',
             headers: {
                 'content-type':'application/json'
@@ -41,7 +41,7 @@ const MyProfile = () => {
             </div>
             <div className="profile_data_holder">
                 <div className="profile_img_holder">
-                    ggggg
+                    
                 </div>
                 <div className="profile_info_holder">
                     <div className="personal_details">

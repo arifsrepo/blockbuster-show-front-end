@@ -1,6 +1,7 @@
 import React from 'react';
 import './MainBanner.css';
 import MyCarusel from '../MyCarusel/MyCarusel';
+import { Carousel } from 'react-bootstrap';
 
 const MainBanner = () => {
     return (

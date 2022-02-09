@@ -9,8 +9,8 @@ import './PopularMovies.css';
 const PopularMovies = () => {
     const [popular, setPopular] = useState([]);
     useEffect(() => {
-        // fetch('https://aqueous-peak-41377.herokuapp.com/movie')
-        fetch('http://localhost:5000/movie')
+        fetch('https://aqueous-peak-41377.herokuapp.com/movie')
+        // fetch('http://localhost:5000/movie')
         .then(res => res.json())
         .then(popularList => {
             setPopular(popularList)

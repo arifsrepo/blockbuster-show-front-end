@@ -8,8 +8,8 @@ import { NavLink } from 'react-router-dom';
 const GeneredNav = () => {
     const [genere, setGenere] = useState('ALL');
     const [movie, setMovie] = useState([]);
-    const [url, setUrl] = useState('http://localhost:5000/genere?genere=ALL&&page=0&&limit=4');
-    // const [url, setUrl] = useState('https://aqueous-peak-41377.herokuapp.com/genere?genere=ALL&&page=0&&limit=4');
+    // const [url, setUrl] = useState('http://localhost:5000/genere?genere=ALL&&page=0&&limit=4');
+    const [url, setUrl] = useState('https://aqueous-peak-41377.herokuapp.com/genere?genere=ALL&&page=0&&limit=4');
     const [pageCount, setPageCount] = useState(0);
     const [currentPage, setCurrentPage] = useState(0);
     const [loading, setLoading] = useState(false);
@@ -17,7 +17,7 @@ const GeneredNav = () => {
 
     const requestSender = (selectGenere, currentPage) =>{
         setLoading(true);
-        setUrl(`http://localhost:5000/genere?genere=${selectGenere}&&page=${currentPage}&&limit=${limit}`);
+        setUrl(`https://aqueous-peak-41377.herokuapp.com/genere?genere=${selectGenere}&&page=${currentPage}&&limit=${limit}`);
         setGenere(selectGenere)
         setCurrentPage(currentPage)
     }

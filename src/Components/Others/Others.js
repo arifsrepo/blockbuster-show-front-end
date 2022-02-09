@@ -13,8 +13,8 @@ const Others = () => {
     const [loading, setLoading] = useState(false);
     const [detailsid, setDetailsid] = useState({})
 
-    // const url = `https://aqueous-peak-41377.herokuapp.com/${topgenselector}`;
-    const url = `http://localhost:5000/${topgenselector}`;
+    const url = `https://aqueous-peak-41377.herokuapp.com/${topgenselector}`;
+    // const url = `http://localhost:5000/${topgenselector}`;
     useEffect(()=>{
         setLoading(true)
         fetch(url)

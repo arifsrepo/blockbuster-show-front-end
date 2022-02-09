@@ -1,34 +1,38 @@
 import React from 'react';
-import { Button, Dropdown, Form } from 'react-bootstrap';
+import { Button, Dropdown, Form, Spinner } from 'react-bootstrap';
 import './NewShow.css';
 import { useState } from 'react';
 
 const NewShow = () => {
     const [showData, setShowData] = useState('Movie');
     const [showDataObject, setShowDataObject] = useState({});
+    const [publishLoad, setPublishLoad] = useState(false);
 
     const handleNewShow = e => {
         e.preventDefault();
+        setPublishLoad(true)
         showDataObject['type'] = showData;
         console.log(showDataObject);
-        // fetch('https://aqueous-peak-41377.herokuapp.com/addshow',{
-        fetch('http://localhost:5000/addshow',{
+        fetch('https://aqueous-peak-41377.herokuapp.com/addshow',{
             method:'POST',
             headers:{
                 'content-type':'application/json'
             },
             body:JSON.stringify(showDataObject)
         })
-        .then()
+        .then(res => res.json())
+        .then(data => {
+            data.acknowledged?setPublishLoad(false):console.log('no')
+        })
     }
 
     const handleNewShowData = e => {
-        console.log('clicked')
         const keyfield = e.target.name;
         const value = e.target.value;
         const newdata = {...showDataObject};
         newdata[keyfield] = value;
         setShowDataObject(newdata);
+        console.log(newdata);
     }
 
     return (
@@ -77,6 +81,9 @@ const NewShow = () => {
                             <Form.Group onBlur={handleNewShowData} className="mb-3">
                                 <Form.Label>Show URL</Form.Label>
                                 <Form.Control name="url" type="text" placeholder="Main URL" />
+                                <Form.Text className="text-muted">
+                                We'll never share your email with anyone else.
+                                </Form.Text>
                             </Form.Group>
                             
                             <Form.Group onBlur={handleNewShowData} className="mb-3">
@@ -142,10 +149,14 @@ const NewShow = () => {
                                     <Form.Control name="release" type="text" placeholder="Release Year" />
                                 </Form.Group>
                             </div>
-                        
+                            <div>
                             <Button variant="primary" type="submit">
                                 Publish
                             </Button>
+                            {
+                                publishLoad?<Spinner animation="border" variant="danger" />:''
+                            }
+                            </div>
                     </div>
                     <br />
                 </Form>

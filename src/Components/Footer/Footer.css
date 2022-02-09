@@ -6,7 +6,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    min-height: 500px;
+    min-height: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -17,5 +17,21 @@
 
 .footer_sub{
     width: 30%;
-    padding: 10px;
+    min-width: 200px;
+    padding: 20px;
+    border-top: 1px solid white;
+}
+
+.team_style{
+    text-align: left;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.dev_text{
+    margin-bottom: 0;
+}
+
+.payment_img{
+    width: 100%;
 }

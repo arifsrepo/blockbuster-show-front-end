@@ -11,8 +11,8 @@ const WatchRoute = ({ children, ...rest }) => {
 
     
     useEffect(() => {
-        // fetch(`https://aqueous-peak-41377.herokuapp.com/watch${show}/${watchid}`)
-        fetch(`http://localhost:5000/watch${show}/${watchid}`)
+        fetch(`https://aqueous-peak-41377.herokuapp.com/watch${show}/${watchid}`)
+        // fetch(`http://localhost:5000/watch${show}/${watchid}`)
         .then(res => res.json())
         .then(watch => setWatch(watch))
     },[])

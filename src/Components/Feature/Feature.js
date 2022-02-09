@@ -8,8 +8,8 @@ const Feature = () => {
     const [tvseries, setTvseries] = useState([])
 
     useEffect(()=> {
-        // fetch('https://aqueous-peak-41377.herokuapp.com/tvseries')
-        fetch('http://localhost:5000/tvseries')
+        fetch('https://aqueous-peak-41377.herokuapp.com/tvseries')
+        // fetch('http://localhost:5000/tvseries')
         .then(res => res.json())
         .then(series => setTvseries(series))
     }, [])

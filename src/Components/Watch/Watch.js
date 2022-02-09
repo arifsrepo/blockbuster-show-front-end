@@ -12,8 +12,8 @@ const Watch = () => {
     const  params = useParams();
     const [show, setShow] = useState({})
     const { user } = useFirebase();
-    // const url = `https://aqueous-peak-41377.herokuapp.com/watch${params.show}/${params.watchid}`;
-    const url = `http://localhost:5000/watch${params.show}/${params.watchid}`;
+    const url = `https://aqueous-peak-41377.herokuapp.com/watch${params.show}/${params.watchid}`;
+    // const url = `http://localhost:5000/watch${params.show}/${params.watchid}`;
     const [bookMark, setBookMark] = useState(false);
 
     const handleWatchLater = () => {
@@ -24,7 +24,7 @@ const Watch = () => {
             id:params?.watchid
         };
         bookMark?setBookMark(false):setBookMark(true);
-        fetch('http://localhost:5000/bookmarks',{
+        fetch('https://aqueous-peak-41377.herokuapp.com/bookmarks',{
             method:'PUT',
             headers:{
                 'content-type':'application/json'

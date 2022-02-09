@@ -76,8 +76,8 @@ const useFirebase = () => {
     const saveUser = ( email, displayName, address, number, method ) => {
         const user = { email, displayName, address, number };
         console.log(user)
-        // fetch('https://aqueous-peak-41377.herokuapp.com/users', {
-        fetch('http://localhost:5000/users', {
+        fetch('https://aqueous-peak-41377.herokuapp.com/users', {
+        // fetch('http://localhost:5000/users', {
             method:method,
             headers:{
                 'content-type':'application/json'
@@ -89,8 +89,8 @@ const useFirebase = () => {
 
     useEffect(() => {
         if(user?.email){
-                // fetch(`https://aqueous-peak-41377.herokuapp.com/userdetails?email=${user.email}`)
-                fetch(`http://localhost:5000/userdetails?email=${user.email}`)
+                fetch(`https://aqueous-peak-41377.herokuapp.com/userdetails?email=${user.email}`)
+                // fetch(`http://localhost:5000/userdetails?email=${user.email}`)
                 .then(res => res.json())
                 .then(details => {
                     if(details?.email){

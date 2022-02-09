@@ -1,5 +1,7 @@
 .card_style{
     position: absolute;
     min-height: 200px;
-    width: 300px;
+    width: 300px !important;
+    background-color: crimson !important;
+    z-index: 100 !important;
 }

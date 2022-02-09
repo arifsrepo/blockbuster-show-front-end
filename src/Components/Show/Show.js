@@ -13,8 +13,8 @@ const Show = () => {
     const [allseries, setAllseries] = useState([]);
 
     useEffect(() => {
-        // fetch('https://aqueous-peak-41377.herokuapp.com/movie')
-        fetch('http://localhost:5000/movie')
+        fetch('https://aqueous-peak-41377.herokuapp.com/movie')
+        // fetch('http://localhost:5000/movie')
         .then(res => res.json())
         .then(popularList => {
             setAllmovie(popularList);
@@ -23,8 +23,7 @@ const Show = () => {
     },[])
 
     useEffect(()=> {
-        // fetch('https://aqueous-peak-41377.herokuapp.com/tvseries')
-        fetch('http://localhost:5000/tvseries')
+        fetch('https://aqueous-peak-41377.herokuapp.com/tvseries')
         .then(res => res.json())
         .then(series => setAllseries(series))
     }, [])

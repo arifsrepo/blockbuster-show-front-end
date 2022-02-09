@@ -1,4 +1,5 @@
 .carusel_item{
     background-color: red;
-    min-height: 200px;
+    min-height: 200px !important;
+    width: 400px !important;
 }
